@@ -1,0 +1,61 @@
+
+body{
+    width:80%;
+    margin:0 auto;
+    padding: 0 5% 0 5%;
+    background-color:#05223e;
+}
+
+footer{
+    padding: 5% 0 1% 0;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+.FWArequest{
+    background-color: #f7f7eb;
+    color: black;
+    border-radius: 20px;
+    padding: 5% 8% 4% 8%;
+    box-shadow: 0px 0px 15px lightgray;
+}
+
+label{
+    padding: 3px;
+    font-size: 17px;
+}
+
+.btnSubmit{
+    background-color: rgb(5, 198, 5);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+}
+
+.btnSubmit:hover {
+    background-color: rgb(7, 166, 7);
+    color: white;
+    box-shadow: 2px 5px #666;
+    transform: translateY(4px);
+  }
+
+#listEmp, #fwaReq, #numEmp{
+    background-color: #f7f7f1;
+    color: black;
+    border-radius: 20px;
+    padding: 5% 8% 5% 8%;
+    box-shadow: 0px 0px 15px lightgray;
+}
+
+#pastReq{
+    background-color: #e4e1e1;
+    color: black;
+    border-radius: 20px;
+    padding: 5% 8% 5% 8%;
+    box-shadow: 0px 0px 15px lightgray;
+}
+

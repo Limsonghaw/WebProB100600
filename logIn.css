@@ -1,0 +1,71 @@
+/* Style inputs */
+input[type=text],[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+button[type=submit] {
+  width: 100%;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius:20px;
+}
+
+button:hover{background-color: grey;}
+
+
+div.container {
+  background-color: #eeeee4;
+  border-radius: 5px;
+  padding: 20px;
+  align-items: center;
+  box-shadow: 0px 2px 25px  #eeeee4;
+  width: 50%;
+}
+
+
+figure {
+  margin: 10px;
+  max-width: 100%;
+
+  }
+
+form{
+
+  display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+
+body{
+  background-color: rgb(5, 34, 62) !important;
+}
+
+h2{
+  flex: 11 auto ;
+}
+
+h1{
+  color: white;
+  text-align: center;
+}
+
+footer{
+  padding-bottom: 1%;
+  color: white;
+  text-align: center;
+}

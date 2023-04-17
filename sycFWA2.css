@@ -1,0 +1,81 @@
+
+body{
+    width:90%;
+    margin:0 auto;
+    padding: 0 5% 0 5%;
+    background-color:#05223e;
+}
+
+footer{
+    padding: 5% 0 1% 0;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+#numFWAEmp{
+    width:48%;
+    margin-right: auto;
+    background-color: #f7f7f1;
+    color: black;
+    border-radius: 20px;
+    padding: 3% 5% 5% 5%;
+    box-shadow: 0px 0px 15px lightgray;
+}
+
+#fwatable{
+    height:250px;
+    overflow:auto;
+}
+
+#numDaily{
+    width:48%;
+    margin-left: auto;
+    background-color: #f7f7f1;
+    color: black;
+    border-radius: 20px;
+    padding: 3% 5% 5% 5%;
+    box-shadow: 0px 0px 15px lightgray;
+}
+
+#dailyTable{
+    height:250px;
+    overflow:auto;
+}
+
+
+#container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media
+    only screen and (max-width: 900px),
+    (min-device-width: 768px) and (max-device-width: 1024px)  {
+
+    body{
+        width:100%;
+    }
+
+    #container {
+        width: 100%;
+        display: block;
+    }
+
+    #numFWAEmp{
+        width:90%;
+        margin: 0 auto;
+        margin-bottom: 20%;
+    }
+
+    #numDaily{
+        width:90%;
+        margin: 0 auto;
+    }
+
+}
